@@ -1,22 +1,52 @@
 {
-  "name": "@angular/common",
-  "version": "10.0.2",
-  "description": "Angular - commonly needed directives and services",
-  "author": "angular",
-  "license": "MIT",
-  "locales": "locales",
+  "_args": [
+    [
+      "@angular/common@10.0.2",
+      "/home/xinlin/test/angular-cypress-example"
+    ]
+  ],
+  "_from": "@angular/common@10.0.2",
+  "_id": "@angular/common@10.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-zpNB2XD6jinXZjfihoO5Q1Yg7urfpZTt/fitdmwFHCcQ/1qZ9T2BVh8+VqVRkh6Pjxmtvu0uPnJ1a/aZ5f9r9A==",
+  "_location": "/@angular/common",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@angular/common@10.0.2",
+    "name": "@angular/common",
+    "escapedName": "@angular%2fcommon",
+    "scope": "@angular",
+    "rawSpec": "10.0.2",
+    "saveSpec": null,
+    "fetchSpec": "10.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@angular/common/-/common-10.0.2.tgz",
+  "_spec": "10.0.2",
+  "_where": "/home/xinlin/test/angular-cypress-example",
+  "author": {
+    "name": "angular"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
   "dependencies": {
     "tslib": "^2.0.0"
   },
-  "peerDependencies": {
-    "@angular/core": "10.0.2",
-    "rxjs": "^6.5.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/angular/angular.git",
-    "directory": "packages/common"
-  },
+  "description": "Angular - commonly needed directives and services",
+  "es2015": "./fesm2015/common.js",
+  "esm2015": "./esm2015/common.js",
+  "fesm2015": "./fesm2015/common.js",
+  "homepage": "https://github.com/angular/angular#readme",
+  "license": "MIT",
+  "locales": "locales",
+  "main": "./bundles/common.umd.js",
+  "module": "./fesm2015/common.js",
+  "name": "@angular/common",
   "ng-update": {
     "packageGroup": [
       "@angular/core",
@@ -39,17 +69,22 @@
       "@angular/service-worker"
     ]
   },
+  "peerDependencies": {
+    "@angular/core": "10.0.2",
+    "rxjs": "^6.5.3"
+  },
+  "publishConfig": {
+    "registry": "https://wombat-dressing-room.appspot.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.git",
+    "directory": "packages/common"
+  },
   "sideEffects": [
     "**/global/*.js",
     "**/closure-locale.*"
   ],
-  "publishConfig": {
-    "registry": "https://wombat-dressing-room.appspot.com"
-  },
-  "main": "./bundles/common.umd.js",
-  "fesm2015": "./fesm2015/common.js",
-  "esm2015": "./esm2015/common.js",
   "typings": "./common.d.ts",
-  "module": "./fesm2015/common.js",
-  "es2015": "./fesm2015/common.js"
+  "version": "10.0.2"
 }

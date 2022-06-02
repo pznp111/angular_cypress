@@ -1,32 +1,43 @@
 {
-  "name": "@angular/cli",
-  "version": "10.0.1",
-  "description": "CLI tool for Angular",
-  "main": "lib/cli/index.js",
+  "_args": [
+    [
+      "@angular/cli@10.0.1",
+      "/home/xinlin/test/angular-cypress-example"
+    ]
+  ],
+  "_development": true,
+  "_from": "@angular/cli@10.0.1",
+  "_id": "@angular/cli@10.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-6Ht3022UcaWTBDnQKgcvTHbOP4ITjzn1DcZWKN0+zKk4PNqOwWtOEF2CBokOG79gTQVdrp2p5YQo5uX6UG7KMQ==",
+  "_location": "/@angular/cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@angular/cli@10.0.1",
+    "name": "@angular/cli",
+    "escapedName": "@angular%2fcli",
+    "scope": "@angular",
+    "rawSpec": "10.0.1",
+    "saveSpec": null,
+    "fetchSpec": "10.0.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@angular/cli/-/cli-10.0.1.tgz",
+  "_spec": "10.0.1",
+  "_where": "/home/xinlin/test/angular-cypress-example",
+  "author": {
+    "name": "Angular Authors"
+  },
   "bin": {
     "ng": "./bin/ng"
   },
-  "keywords": [
-    "angular",
-    "Angular CLI",
-    "devkit",
-    "sdk",
-    "Angular DevKit",
-    "angular-cli"
-  ],
-  "scripts": {
-    "postinstall": "node ./bin/postinstall/script.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/angular/angular-cli.git"
-  },
-  "author": "Angular Authors",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/angular/angular-cli/issues"
   },
-  "homepage": "https://github.com/angular/angular-cli",
   "dependencies": {
     "@angular-devkit/architect": "0.1000.1",
     "@angular-devkit/core": "10.0.1",
@@ -49,6 +60,29 @@
     "universal-analytics": "0.4.20",
     "uuid": "8.1.0"
   },
+  "description": "CLI tool for Angular",
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": ">= 6.11.0",
+    "yarn": ">= 1.13.0"
+  },
+  "homepage": "https://github.com/angular/angular-cli",
+  "husky": {
+    "hooks": {
+      "pre-push": "node ./bin/devkit-admin hooks/pre-push"
+    }
+  },
+  "keywords": [
+    "angular",
+    "Angular CLI",
+    "devkit",
+    "sdk",
+    "Angular DevKit",
+    "angular-cli"
+  ],
+  "license": "MIT",
+  "main": "lib/cli/index.js",
+  "name": "@angular/cli",
   "ng-update": {
     "migrations": "@schematics/angular/migrations/migration-collection.json",
     "packageGroup": {
@@ -60,14 +94,12 @@
       "@angular-devkit/schematics": "10.0.1"
     }
   },
-  "engines": {
-    "node": ">= 10.13.0",
-    "npm": ">= 6.11.0",
-    "yarn": ">= 1.13.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular-cli.git"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "node ./bin/devkit-admin hooks/pre-push"
-    }
-  }
+  "scripts": {
+    "postinstall": "node ./bin/postinstall/script.js"
+  },
+  "version": "10.0.1"
 }
